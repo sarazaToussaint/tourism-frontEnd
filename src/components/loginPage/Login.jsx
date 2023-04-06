@@ -88,7 +88,6 @@ const Login = () => (
             <h3>One of us ?</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laboriosam ad deleniti.
             </p>
             <button type="button" className="btn transparent" id="sign-in-btn">
               Sign in

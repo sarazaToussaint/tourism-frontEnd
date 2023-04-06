@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 
 const Login = () => (
   <>
-    <h2>Welcome to the registration page</h2>
+    <h2>Welcome to the registration</h2>
     <div className="container">
       <div className="forms-container">
         <div className="signin-signup">

@@ -75,7 +75,7 @@ const Login = () => (
             <h3>New here ?</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-              ex ratione. Aliquid!
+              ex ratione.
             </p>
             <button type="button" className="btn transparent" id="sign-up-btn">
               Sign up

@@ -6,7 +6,7 @@ const Login = () => (
   <>
     <h2>Welcome to the registration</h2>
     <div className="container1">
-      <div className="forms-container">
+      <div className="forms-container2">
         <div className="signin-signup">
           <form action="#" className="sign-in-form">
             <h2 className="title">Sign in</h2>

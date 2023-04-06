@@ -1,6 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { NavLink as Link } from 'react-router-dom';
 
 const Login = () => (
   <>
@@ -19,20 +17,6 @@ const Login = () => (
             </div>
             <input type="submit" value="Login" className="btn solid" />
             <p className="social-text">Or Sign in with social platforms</p>
-            <div className="social-media">
-              <Link to className="social-icon">
-                <i className="fab fa-facebook-f" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-twitter" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-google" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-linkedin-in" />
-              </Link>
-            </div>
           </form>
           <form action="#" className="sign-up-form">
             <h2 className="title">Sign up</h2>
@@ -50,20 +34,6 @@ const Login = () => (
             </div>
             <input type="submit" className="btn" value="Sign up" />
             <p className="social-text">Or Sign up with social platforms</p>
-            <div className="social-media">
-              <Link to className="social-icon">
-                <i className="fab fa-facebook-f" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-twitter" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-google" />
-              </Link>
-              <Link to className="social-icon">
-                <i className="fab fa-linkedin-in" />
-              </Link>
-            </div>
           </form>
         </div>
       </div>

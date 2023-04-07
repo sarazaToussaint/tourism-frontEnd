@@ -70,7 +70,7 @@ const Login = () => {
             <div className="content">
               <h3>New here ?</h3>
               <p>
-                Please register on the button below
+                Please click on the below button to see the registration form.
               </p>
               <button
                 type="button"
@@ -87,7 +87,7 @@ const Login = () => {
             <div className="content">
               <h3>One of us ?</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                Please click on the below button to see the login form.
               </p>
               <button
                 type="button"

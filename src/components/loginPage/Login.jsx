@@ -39,7 +39,7 @@ const Login = () => {
                   <i className="fab fa-twitter" />
                 </Link>
                 <Link to className="social-icon">
-                  <i className="fab fa-google" />
+                  <i FcGoogle className="fab fa-google" />
                 </Link>
                 <Link to className="social-icon">
                   <i className="fab fa-linkedin-in" />
@@ -71,7 +71,7 @@ const Login = () => {
             <div className="content">
               <h3>New here ?</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Please register on the button below
               </p>
               <button
                 type="button"

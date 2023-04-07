@@ -1,4 +1,6 @@
 import { React, useRef } from 'react';
+import { FaLock, FaUserAlt, FaEnvelope } from 'react-icons/fa';
+
 // import { NavLink as Link } from 'react-router-dom';
 
 const Login = () => {
@@ -20,11 +22,11 @@ const Login = () => {
             <form action="#" className="sign-in-form">
               <h2 className="title">Sign in</h2>
               <div className="input-field">
-                <i className="fas fa-user" />
+                <FaUserAlt className="icon" />
                 <input type="text" placeholder="Username" />
               </div>
               <div className="input-field">
-                <i className="fas fa-lock" />
+                <FaLock className="icon" />
                 <input type="password" placeholder="Password" />
               </div>
               <input type="submit" value="Login" className="btn solid" />
@@ -47,15 +49,15 @@ const Login = () => {
             <form action="#" className="sign-up-form">
               <h2 className="title">Sign up</h2>
               <div className="input-field">
-                <i className="fas fa-user" />
+                <FaUserAlt className="icon" />
                 <input type="text" placeholder="Username" />
               </div>
               <div className="input-field">
-                <i className="fas fa-envelope" />
+                <FaEnvelope className="icon" />
                 <input type="email" placeholder="Email" />
               </div>
               <div className="input-field">
-                <i className="fas fa-lock" />
+                <FaLock className="icon" />
                 <input type="password" placeholder="Password" />
               </div>
               <input type="submit" className="btn" value="Sign up" />

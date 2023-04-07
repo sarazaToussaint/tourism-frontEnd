@@ -1,6 +1,5 @@
 import { React, useRef } from 'react';
 import { FaLock, FaUserAlt, FaEnvelope } from 'react-icons/fa';
-// import { NavLink as Link } from 'react-router-dom';
 
 const Login = () => {
   const containerRef = useRef(null);

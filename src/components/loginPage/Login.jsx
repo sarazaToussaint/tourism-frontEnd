@@ -53,7 +53,7 @@ const Login = () => {
         <div className="panels-container">
           <div className="panel left-panel">
             <div className="content">
-              <h3>New here ? </h3>
+              <h3>New here ?</h3>
               <p>
                 Please click on the below button to see the registration form.
               </p>

@@ -45,7 +45,7 @@ const Login = () => {
                 <input type="password" placeholder="Password" />
               </div>
               <input type="submit" className="btn" value="Sign up" />
-              <p className="social-text">Or Sign up with social platforms</p>
+              <p className="social-text">Or Sign up with Google</p>
             </form>
           </div>
         </div>

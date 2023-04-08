@@ -18,7 +18,7 @@ const Login = () => {
         <div className="forms-container">
           <div className="signin-signup">
             <form action="#" className="sign-in-form">
-              <h2 className="title">Login</h2>
+              <h2 className="title">Sign in</h2>
               <div className="input-field">
                 <FaUserAlt className="icon" />
                 <input type="text" placeholder="Username" />

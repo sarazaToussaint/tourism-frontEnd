@@ -70,7 +70,7 @@ const Login = () => {
           </div>
           <div className="panel right-panel">
             <div className="content">
-              <h3>One of us ?</h3>
+              <h3>One of us ? </h3>
               <p>
                 Please click on the below button to see the login form.
               </p>

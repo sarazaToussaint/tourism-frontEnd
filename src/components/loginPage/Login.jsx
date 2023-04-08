@@ -83,7 +83,7 @@ const Login = () => {
                 Sign in
               </button>
             </div>
-            <img src="img/register.svg" className="image" alt="" />
+            <img src="img/register.svg" className="image" alt="user" />
           </div>
         </div>
       </div>

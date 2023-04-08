@@ -49,6 +49,7 @@ const Login = () => {
             </form>
           </div>
         </div>
+
         <div className="panels-container">
           <div className="panel left-panel">
             <div className="content">

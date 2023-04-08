@@ -28,7 +28,7 @@ const Login = () => {
                 <input type="password" placeholder="Password" />
               </div>
               <input type="submit" value="Login" className="btn solid" />
-              <p className="social-text">Or Sign in with social platforms</p>
+              <p className="social-text">Or Sign in with Google</p>
             </form>
             <form action="#" className="sign-up-form">
               <h2 className="title">Sign up</h2>

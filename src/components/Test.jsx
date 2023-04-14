@@ -11,7 +11,7 @@ const Test = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <input type="text" placeholder="Type your test name" onChange={(event) => setNewTest(event.target.value)} />
       <button type="button" onClick={createTest}>Add</button>
     </div>

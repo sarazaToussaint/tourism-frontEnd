@@ -1,6 +1,6 @@
 import { useState, React } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-import db from './firebase-config';
+import db from './Firebase';
 
 const Test = () => {
   const [newTest, setNewTest] = useState('');

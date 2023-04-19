@@ -1,5 +1,9 @@
 import { React, useRef } from 'react';
-import { FaLock, FaUserAlt, FaEnvelope } from 'react-icons/fa';
+import {
+  FaLock,
+  FaUserAlt,
+  FaEnvelope,
+} from 'react-icons/fa';
 
 const Login = () => {
   const containerRef = useRef(null);

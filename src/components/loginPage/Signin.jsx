@@ -3,7 +3,13 @@ import { signInWithGoogle } from '../Firebase';
 
 const Signin = () => (
   <div>
-    <button type="button" onClick={signInWithGoogle}>Sign In with Google</button>
+    <button
+      type="button"
+      onClick={signInWithGoogle}
+    >
+      Sign In with Google
+
+    </button>
   </div>
 );
 

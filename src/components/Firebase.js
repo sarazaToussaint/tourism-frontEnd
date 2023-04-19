@@ -1,6 +1,10 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from '@firebase/firestore';
-import { getAuth, GithubAuthProvider, signInWithPopup } from 'firebase/auth';
+import {
+  getAuth,
+  GithubAuthProvider,
+  signInWithPopup,
+} from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDKMVY_p1PlUZFFWS_uYLCuf5ghv5MgYzg',

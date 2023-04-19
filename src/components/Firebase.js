@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from '@firebase/firestore';
-import { getAuth } from 'firebase/auth';
+import { getAuth, GithubAuthProvider, signInWithPopup } from 'firebase/auth';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyDKMVY_p1PlUZFFWS_uYLCuf5ghv5MgYzg',
@@ -19,3 +19,14 @@ const db = getFirestore(app);
 export default db;
 
 export const auth = getAuth(app);
+
+const provider = new GithubAuthProvider();
+
+export const signInWithGoogle = () => {
+  signInWithPopup(auth, provider)
+    .then((result) => {
+      console.log(result);
+    }).catch((error) => {
+      console.log(error);
+    });
+};
